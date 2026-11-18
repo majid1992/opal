@@ -9,6 +9,12 @@
   Live-TV · Programmführer (EPG) · Filme &amp; Serien · Aufnahmen
 </p>
 
+<h3 align="center">📺 Downloader-Code: <code>4796320</code></h3>
+<p align="center">
+  In der App „Downloader“ auf Fire TV / Android TV eingeben – oder <code>asadim.de/app</code><br>
+  <sub>Enter in the “Downloader” app on Fire TV / Android TV – or <code>asadim.de/app</code></sub>
+</p>
+
 <p align="center">
   <a href="https://asadim.de/opal/">Webseite</a> ·
   <a href="https://github.com/majid1992/opal/releases/latest">Download</a> ·
