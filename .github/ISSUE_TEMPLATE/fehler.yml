@@ -1,0 +1,42 @@
+name: "🐞 Fehler melden / Report a problem"
+description: "Etwas funktioniert nicht wie erwartet. / Something doesn't work as expected."
+title: "[Fehler] "
+labels: ["fehler"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du hilfst, Opal besser zu machen! Bitte keine Zugangsdaten, Playlist-Adressen oder Passwörter hier eintragen – das hier ist öffentlich.
+        Thanks for helping! Please never post login data, playlist URLs or passwords here – this page is public.
+  - type: textarea
+    id: was
+    attributes:
+      label: "Was ist passiert? / What happened?"
+      description: "Kurz beschreiben, was du gesehen hast. / Describe what you saw."
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: "Wie kommt man dahin? / Steps to reproduce"
+      description: "Welche Tasten, welcher Bildschirm, welcher Sender/Film? / Which buttons, screen, channel or movie?"
+      placeholder: "1. Startseite → Filme\n2. …"
+  - type: input
+    id: version
+    attributes:
+      label: "Opal-Version"
+      description: "Einstellungen → Über / Settings → About"
+      placeholder: "1.0.6"
+  - type: input
+    id: geraet
+    attributes:
+      label: "Gerät / Device"
+      placeholder: "Fire TV Stick 4K Max, Google TV Streamer, …"
+  - type: dropdown
+    id: oft
+    attributes:
+      label: "Wie oft? / How often?"
+      options:
+        - "Immer / Always"
+        - "Manchmal / Sometimes"
+        - "Einmal / Once"

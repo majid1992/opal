@@ -1,0 +1,21 @@
+name: "💡 Idee oder Wunsch / Feature request"
+description: "Was soll Opal können? / What should Opal be able to do?"
+title: "[Wunsch] "
+labels: ["wunsch"]
+body:
+  - type: textarea
+    id: wunsch
+    attributes:
+      label: "Was wünschst du dir? / What would you like?"
+    validations:
+      required: true
+  - type: textarea
+    id: warum
+    attributes:
+      label: "Wofür brauchst du das? / Why would it help you?"
+      description: "Ein Beispiel aus deinem Alltag hilft am meisten. / An everyday example helps most."
+  - type: input
+    id: version
+    attributes:
+      label: "Opal-Version"
+      placeholder: "1.0.6"
